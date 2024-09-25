@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+
+margin:0;
+padding:0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: white;
+    
+
+}
+
+/* editing the sidepanel  */
+.wrapper{
+    display: flex;
+    position: fixed;
+}
+
+.wrapper .sidebar{
+position:fixed;
+width:200px;
+height: 100%;
+background-color:#263575;
+padding:30px 0;
+}
+
+.wrapper .sidebar h2{
+color: white;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 20px;
+
+
+
+}
+
+.wrapper .sidebar ul li a{
+color: #bdb8d7;
+display: block;
+padding-left: 20px;
+
+}
+
+
+
+.wrapper .sidebar ul li:hover{
+    background: #3b24b1;
+}
+
+.wrapper .sidebar ul li:hover a{
+    color: #fff;
+}
+.wrapper .sidebar .logout{
+padding-top: 200px;
+position:  relative;
+bottom: 0;
+
+
+}
+.main_content .left_main img{
+width: 80px;
+height: 80px;
+
+}
+.main_content{
+
+display:flex;
+align-items: center;
+    
+
+}
+.main_content .span{
+padding-top: 0;
+
+}
+.main_content .CASE_DATABASE{
+margin-right: 700px;
+
+}
+
+.main_content .bordered img{
+    width:39px;
+    height: 39px;
+  
+
+}
+
+
+.main_content .bordered{
+    display:flex;
+    align-items: center;
+    border-style:solid;
+    border-width: 1px;
+    padding: 10px;  
+    margin-left: 450px;
+    gap: 10px;
+    border-radius: 15px;
+    height:49px ;
+    margin-right: 0;
+    border-color:#ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.main_content .left_main{
+    display:flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.main_cards{
+    
+    display:flex;
+    margin-top: 10px;
+    padding: 20px;
+   
+
+}
+
+.main_cards .cards{
+    width:192px;
+    height:96px;
+    padding:30px;   
+    border-radius: 15px;
+    color:black;
+    font-weight:normal;
+    font-size: 14px;
+    margin:20px;
+    cursor: pointer;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  
+}
+.main_cards .cards:hover {
+    background-color: #263575;
+    color: white;
+    cursor: pointer;
+}
+
+
+.main_cards .closed_cards{
+    width:192px;
+    height:96px;
+    border-style:solid;
+    padding:30px;   
+    border-radius: 15px;
+    color:black;
+    border-width: 1px;
+    font-weight:normal;
+    font-size: 14px;
+    margin:20px;
+    border-color: #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main_cards .closed_cards:hover {
+    background-color: #263575;
+    color: white;
+    cursor: pointer;
+}
+
+.main_cards .open_cards{
+    width:192px;
+    height:96px;
+    border-style:solid;
+    padding:30px;   
+    border-radius: 15px;
+    color:black;
+    border-width: 1px;
+    font-weight:normal;
+    font-size: 14px;
+    margin:20px;
+    border-color: #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main_cards .open_cards:hover {
+    background-color: #263575;
+    color: white;
+    cursor: pointer;
+}
+
+.main_cards .stop_cases{
+    width:192px;
+    height:96px;
+    border-style:solid;
+    padding:30px;   
+    border-radius: 15px;
+    color:black;
+    border-width: 1px;
+    font-weight:normal;
+    font-size: 14px;
+    margin:20px;
+    border-color: #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main_cards .stop_cases:hover {
+    background-color: #263575;
+    color: white;
+}
+/* Editing the dashboard img section */
+.dash{
+    display: flex;
+
+}
+/* Editing the dashboard image background */
+.dash img{
+    width: 599px;
+    height: 493px;
+}
+
+.main{
+margin-left: 250px;
+
+
+}
+
+.dash .recentcases{
+margin-left: 50px;
+border-style: solid;
+border-width: 1px;
+border-color: #ccc;
+width: 600px;
+height: 505px;
+align-items: center;
+width: 300px;
+height: 505px;
+align-items: center;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+.dash .recentcases h2{
+text-align: center;
+margin-top: 20px;
+
+}
+.dash .recentcases .recentcases_details {
+border-style: solid;
+border-width: 1px;
+margin-top: 40px;
+width: fit-content;
+height: fit-content;
+padding:10px;
+align-items: center;
+display:flex;
+margin-left: 50px;
+border-radius: 15px;
+border-color: #ccc;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+
+}
+.dash .recentcases .recentcases_details span{
+font-weight: bold;  
+font-size: 12px;
+
+}
+.complaint a{
+align-items: center;
+color: black;
+}
+.complaint .complain{
+    gap:20px;
+}
+.complaint .suspect{
+    gap:20px;
+
+}
+.complaint .complain{
+    border-style: solid;
+    text-align: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 100px;
+    margin-left:250px;
+    margin-right: 250px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    position: relative;
+    padding-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.complaint{
+    border-style: solid;
+    width: 950px;
+    padding-bottom: 50px;
+    border-width: 1px;
+    border-color: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    
+    
+
+}
+.complaint .suspect{
+    border-style: solid;
+    text-align: center;
+    margin-top: 20px;
+    width:400px;
+    height: 100px;
+    margin-left:250px;
+    margin-right: 250px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 15px;
+    font-size: 20px;
+    position: relative;
+    padding-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formheader{
+
+    margin-top: 30px;
+    margin-left:250px;
+}
+
+.formheader a{
+    background-color:#263575 ;
+    padding: 10px 20px 10px 20px;
+    margin-left: 570px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 100px;
+    
+    
+
+}
+.form_container{
+    margin-left: 250px;
+    margin-top:  50px;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.form_container form .complaint_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+form .complaint_details .input_box{
+    margin: 20px 0px 12px 0;
+    width: calc(100% /2 - 20px);
+}
+.complaint_details .input_box input{
+    height: 45px;
+    width: 100%;
+    outline: #ccc;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 15px;
+    padding-left: 15px;
+
+}
+.complaint_details .input_box .details{
+    font-weight: medium;
+    margin-bottom: 5px;
+    display: block;
+    
+}
+.complaint_details .input_box textarea{
+
+    outline: #ccc;
+    border-color: #ccc;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+form .form_button input{
+    height: 40px;
+    width:122px;
+    padding: 10px 20px 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #263575;
+    border-radius: 100px;
+    background-color: #263575;
+    color: white;
+}
+.input_box p{
+    text-align: left;
+    font-weight: 500;
+    font-size:14px;
+}
+
+
+
+.login_container{
+width:100%;
+height: 100vh;
+background-image: url("images/login_backgroundimg.png");
+background-position: center;
+background-size: cover;
+position: relative;
+
+
+}
+
+.login_header{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,20%);
+    text-align: center;
+}
+.login_header h1{
+    margin-bottom:10px;
+    font-size: 30px;
+    color: #263575;
+}
+
+.input_field{
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: #263575;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.input_field i{
+    color: #263575;
+}
+
+
+
+form p{
+    text-align: right;
+    font-size: 14px;
+}
+form p a{
+    color: blue;
+}
+
+
+.lg_button{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-basis:100%;
+    height: 50px;
+    background-color: #263575;
+    cursor: pointer;
+    outline: 0;
+    border-radius: 15px;
+
+
+}
+.lg_button input{
+
+color: white;
+
+}
+
+.signup_bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #263575;
+    border-radius: px;
+
+}
+
+.signup_bottom input{
+
+    color:white;
+}
+
+
+.bottomlogin{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.line img{
+    margin-top: 0;
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+    padding-top: 0;
+    justify-content: center;
+}
+
+/* Styling settings page */
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left:600px;
+   
+  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* styling the form in settings */
+
+
+.form-container .input_num{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;}
+
+.form-container .input_sub{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #263575;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.form-container .input_sub input[type="submit"]{
+    color: white;
+}
+
+/* editing the form diary of action */
+.form-diary{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 950px;
+}
+.form-diary h2{
+ 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.form-diary label{
+ 
+        display: block;
+        margin-bottom: 5px;
+    
+}
+
+.form-diary input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-container .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button-container input[type="submit"] {
+    background-color: #263575; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the buttons appear side by side */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.button-container input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
